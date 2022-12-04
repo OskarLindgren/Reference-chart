@@ -8,7 +8,7 @@ from time import sleep # import a function from a module
 
 ## writing Hello World!
 print("Hello World!") # python automatically adds a newline at the end of a print statment
-print() # we can do this to create a blank line!
+print() # we can do this to create a blank line
 
 
 ## using variables
@@ -17,10 +17,9 @@ print() # we can do this to create a blank line!
 age = 17 # this is an int, python doesn't need you to specify types. It figures it out on it's own
 name = "Oskar" # this is a string
 lastName = 'Lindgren' # we can also use single quotes!
-favoriteActivities = ["Coding", "Sleeping", "Coffe"] # we can make a list of strings like this
+favoriteActivities = ["Coding", "Sleeping", "Drinking coffe"] # we can make a list of strings like this
 favoriteNumbers = [1, 7, 8, 32, 64, 128, 256] # or a list of numbers like this!
 favoriteThings = [favoriteActivities, favoriteNumbers] # we can even make a list of lists! 
-
 myTuple = (15, 32) # this is a tuple, it's often used for coordinates on such
 myLongTuple = (1,2,3,4,5) # a touple doesn't have to ahve only 2 values, it can have as many as you want!
 myFloat = 1.2 # this is a float, it's an integer with a little bit more!
@@ -50,7 +49,7 @@ print()
 
 ## if statments
 
-if userAge < 5: # if userAge is greater than 5
+if userAge < 5: # if userAge is less than 5
     print("You're younger than 5!")
 elif userAge <= 10: # if userAge is less than OR equal to 10
     print("You're still pretty young!")
@@ -144,5 +143,5 @@ print(words)
 print("Wow, list's look kinda weird, huh?")
 # we can also grab just one part of a list
 print(words[0]) # this will grab the thing at the 0th position
-print(words["code!"]) # this will grab the element that has "code!" in it
+print(words[3]) # this will grab the thing at the 3rd position
 print()
