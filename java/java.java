@@ -122,6 +122,6 @@ public class java { // the class has to be named the same as the java file
             }
             i++;
         }
-        scanner.close() // don't forget to close your scanner to prevent a memory leak!
+        scanner.close(); // don't forget to close your scanner to prevent a memory leak!
     }
 }
