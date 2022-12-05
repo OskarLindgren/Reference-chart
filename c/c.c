@@ -114,4 +114,6 @@ int main(void) // this is our main function, this is where the computer will sta
 	myFunc();
 	anotherFunc("I like c!\n");
 	printf("%d\n", addTwoNumbers(15, 32)); // print the value that the function returns
+	
+	// saldy c does not tavily support try statments, <Windows.h> has a try statment, but that's beyond the scope of this project
 }
