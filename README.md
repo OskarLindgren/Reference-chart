@@ -1,2 +1,2 @@
 # Reference-chart
-A refference chart for how you can write simple io in diffrent languages
+A refference chart for how you can write simple code in diffrent languages
