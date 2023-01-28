@@ -119,7 +119,7 @@ try: # try to do this
 except Exception: # if it fails, do this instead
     print("I failed to add 1+1 :(")
 finally: # regardless of result, do this
-    print("Well that over!")
+    print("Well that's over!")
 # this will never fail, because computers are excelent at math, we'll see later how useful it can be!
 
 
