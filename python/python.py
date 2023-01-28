@@ -1,7 +1,7 @@
 ### This python script will show the basics of python!
 
 ## importing modules
-import os              # import an intire module
+import os              # import an entire module
 import turtle as tl    # import a module with a nickname
 from time import sleep # import a function from a module
 
